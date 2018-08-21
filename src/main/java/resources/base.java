@@ -3,6 +3,7 @@ package resources;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import org.openqa.selenium.chrome.ChromeOptions;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -26,7 +27,10 @@ public class base {
 			driver = new FirefoxDriver();
 		} else if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/java/resources/chromedriver");
-			driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("start-maximized");
+			options.addArguments("--window-size=1920,1080");
+			driver = new ChromeDriver(options);
 		}
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		return driver;

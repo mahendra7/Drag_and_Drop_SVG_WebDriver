@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15423" started-at="2017-10-13T16:35:29Z" finished-at="2017-10-13T16:35:45Z">
+  <suite name="Default suite" duration-ms="17032" started-at="2018-08-21T00:02:19Z" finished-at="2018-08-21T00:02:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15423" started-at="2017-10-13T16:35:29Z" finished-at="2017-10-13T16:35:45Z">
+    <test name="Default test" duration-ms="17032" started-at="2018-08-21T00:02:19Z" finished-at="2018-08-21T00:02:36Z">
       <class name="com.netelastic.dragAndDrop">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.netelastic.dragAndDrop@77cd7a0]" name="testSetup" is-config="true" duration-ms="1907" started-at="2017-10-13T09:35:29Z" finished-at="2017-10-13T09:35:31Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.netelastic.dragAndDrop@6a41eaa2]" name="testSetup" is-config="true" duration-ms="2430" started-at="2018-08-20T17:02:19Z" finished-at="2018-08-20T17:02:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="dragAndDropTest()[pri:0, instance:com.netelastic.dragAndDrop@77cd7a0]" name="dragAndDropTest" duration-ms="13138" started-at="2017-10-13T09:35:31Z" finished-at="2017-10-13T09:35:45Z">
+        <test-method status="PASS" signature="dragAndDropTest()[pri:0, instance:com.netelastic.dragAndDrop@6a41eaa2]" name="dragAndDropTest" duration-ms="14326" started-at="2018-08-20T17:02:22Z" finished-at="2018-08-20T17:02:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragAndDropTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.netelastic.dragAndDrop@77cd7a0]" name="teardown" is-config="true" duration-ms="366" started-at="2017-10-13T09:35:45Z" finished-at="2017-10-13T09:35:45Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.netelastic.dragAndDrop@6a41eaa2]" name="teardown" is-config="true" duration-ms="254" started-at="2018-08-20T17:02:36Z" finished-at="2018-08-20T17:02:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
